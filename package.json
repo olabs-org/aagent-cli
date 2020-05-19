@@ -1,0 +1,37 @@
+{
+  "name": "aagent-cli",
+  "version": "0.0.1",
+  "description": "It is CLI to work with Autonomous Agents on Obyte",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "aagent": "./cli.js"
+  },
+  "keywords": [
+    "obyte",
+    "library",
+    "aa",
+    "autonomous",
+    "agent"
+  ],
+  "author": "olabs.org",
+  "homepage": "https://github.com/olabs-org/aagent-cli",
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/olabs-org/aagent-cli.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/olabs-org/aagent-cli/issues"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "global": "^4.4.0",
+    "ocore": "git+https://github.com/byteball/ocore.git",
+    "open": "^7.0.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "yargs": "^15.3.1"
+  }
+}
