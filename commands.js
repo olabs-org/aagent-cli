@@ -11,10 +11,10 @@ async function init(folder) {
   try {
     await fsp.mkdir(_path, { recursive: true });
     await fse.copy(path.join(__dirname, 'template'), _path);
-    console.log('Initialization Successful. Execute:');
+    console.log('Initialization Successful.\n\nTo install needed modules execute:');
     if (folder !== '.') console.log('cd ' + folder);
     console.log('yarn');
-    console.log('If you want to work with a testnet network, rename .env.testnet file to .env');
+    console.log('\nIf you want to work with a testnet network, rename .env.testnet file to .env');
     console.log('-------------------------');
   }
   catch (e) {

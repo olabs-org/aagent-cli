@@ -8,11 +8,14 @@ Init
 npm i -g aagent-cli
 aagent --help
 ```
+<br>
 
 Create project from [template](template) (with AA example, tests and library)
 ```bash
 aagent init folder
 ```
+After go to the specified folder and run yarn (or npm i)
+
 <br>
 
 Validating AA

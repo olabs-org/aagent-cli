@@ -1,6 +1,6 @@
 {
   "name": "aagent-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It is CLI to work with Autonomous Agents on Obyte",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
